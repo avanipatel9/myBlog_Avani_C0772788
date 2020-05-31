@@ -31,7 +31,7 @@ nav {
   font-size: 1.25em;
   font-weight: bold;
   text-align: center;
-  margin-top: -1.5em;
+  margin-top: 1.5em;
 }
 
 /* styles specifies the padding and margins of the unordered list in nav */
@@ -43,7 +43,7 @@ nav ul {
 
 /* styles for the li in nav */
 nav li {
-  background-color: #9d9d93;
+  background-color: #1d1d1c;
   border-radius: 2em;
   margin: 0.3em;
   padding: 0.4em;
@@ -86,6 +86,37 @@ nav li a {
   display: inline;
 }
 
+.mobile h1 {
+  color: #000000;
+  background-color: #FFB695;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.divbg {
+  background: #eae8e8;
+  border-radius: 31.25em;
+  height:6.25em;
+  width:6.25em;
+  margin: auto;
+  -webkit-box-shadow: 0.125em 0.125em 0.3125em 0em rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0.125em 0.125em 0.3125em 0em rgba(0, 0, 0, 1);
+  box-shadow: 0.125em 0.125em 0.3125em 0em rgba(0, 0, 0, 0.5);
+}
+.icon {
+  width: 100%;
+  height:100%;
+
+}
+.col-container {
+display: table;
+width: 100%;
+}
+.col {
+display: table-cell;
+padding: 16px;
+}
+
 /* styles for the desktop class */
 .desktop {
   display: none;
@@ -108,6 +139,7 @@ footer {
   text-align: center;
   margin-top: 2em;
   color: #ffffff;
+  background-color: #2a2a2a;
 }
 
 /* styles for the tablet class */
@@ -420,7 +452,6 @@ video {
     text-align: left;
     background-color: #ffffff;
   }
-
   /* styles for nav */
   nav {
     float: right;
@@ -513,30 +544,6 @@ video {
   body {
     background-color: #ffffff;
   }
-
-  .divbg {
-    background: #eae8e8;
-    border-radius: 500px;
-    height:100px;
-    width:100px;
-    margin: auto;
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
-}
-.icon {
-    width: 100;
-    height:100;
-  
-}
-.col-container {
-  display: table;
-  width: 100%;
-}
-.col {
-  display: table-cell;
-  padding: 16px;
-}
 
   div.colcontainer {
     display: flex;
