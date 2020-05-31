@@ -56,21 +56,29 @@ body {
     text-decoration: none;
   }
   
-  .banner {
-    position: relative;
-    text-align: center;
-  }
-
-  .name {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  #imgbanner {
+    opacity: 0.5;
   }
   
-  div h1 {
-    color: black;
-    opacity: 1;
+  .banner {
+    position: relative;
+  }
+  
+  .name {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: #ff7979;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .name h1 {
+    color: #ff7979;
+    /* color: #ff6b6b */
+    /* color: #fc5c65; */
   }
   
   /* styles for the mobile class */
@@ -95,9 +103,54 @@ body {
   }
 
   /* styles for the info class of main */
-  .info h2 {
-      border-bottom: 2px solid black;
+  .info #about {
       background-color: #FFB695;
+      padding: 1em;
+      margin-top: -0.5em;
+      font-size: 2em;
+      color: black;
+  }
+
+  .info #education {
+    background-color: #FFB695;
+      padding: 1em;
+      margin-top: 1em;
+      font-size: 2em;
+      color: black;
+  }
+
+  .info p {
+    font-size: 1em;
+    text-align: justify;
+    margin: 1em;
+    line-height: 2em;
+  }
+
+  /* styles for the table element */
+  table {
+    background-color: #ffffff;
+    border: 0.1em solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -1em;
+  }
+
+  th,td {
+    border: 0.1em solid #000000 ;
+    padding: 1em;
+  }
+  /* styles for the th */
+  th {
+    background-color: #1d1d1c;
+    color: #ffffff;
+  }
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    color: #ffffff;
   }
   
   /* styles for the footer */

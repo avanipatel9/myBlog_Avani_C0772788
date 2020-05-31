@@ -567,6 +567,7 @@ video {
       list-style-type: square;
       text-align: left;
       margin-bottom: 1em;
+      font-size: 1.2em;
       list-style-position: outside;
     }
 
