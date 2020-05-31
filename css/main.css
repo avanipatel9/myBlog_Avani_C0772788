@@ -536,8 +536,32 @@ video {
       text-align: center;
       padding: 10px 20px;
       text-decoration: none;
-      
     }
+
+    div.txtcontainer ul li {
+      list-style-type: square;
+      text-align: left;
+      margin-bottom: 1em;
+      list-style-position: outside;
+    }
+
+    div.txtcontainer ul li a:link {
+        color: teal;
+    }
+    
+    div.txtcontainer ul li a:visited {
+      color: #2323a0;
+  }
+
+  div.txtcontainer ul li a:hover {
+    font-style: italic;
+    color: #470832;
+  }
+
+  div.txtcontainer ul li a:active {
+    color: #e27023;
+  }
+
 
 
 
