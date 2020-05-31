@@ -1,0 +1,139 @@
+/* stylesheet for fitness club wesite created by .... */
+
+/* styles for the body of the pages */
+body {
+    background-color: #ffffff;
+  }
+  
+  /* styles to have fluid images */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Adopting the mobile-first strategy */
+  /* styles for the Mobile Layout */
+  
+  /* styles for the id = container */
+  #container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* styles for the logo in the header div */
+  header {
+    text-align: center;
+  }
+  
+  /* styles for the nav bar containing the links */
+  nav {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+  
+  /* styles specifies the padding and margins of the unordered list in nav */
+  nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* styles for the li in nav */
+  nav li {
+    background-color: #9d9d93;
+    border-radius: 2em;
+    margin: 0.3em;
+    padding: 0.4em;
+    list-style-type: none;
+  }
+  
+  /* styles for the anchor tags that are in nav li */
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    position: relative;
+    text-align: center;
+  }
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  div h1 {
+    color: black;
+    opacity: 1;
+  }
+  
+  /* styles for the mobile class */
+  .mobile {
+    display: inline;
+  }
+  
+  /* styles for the desktop class */
+  .desktop {
+    display: none;
+  }
+  
+  /* styles for the main div containg the page information */
+  main {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 2em 0 2em 0;
+    opacity: 0.85;
+    background-color: #ffffff;
+  }
+
+  /* styles for the info class of main */
+  .info h2 {
+      border-bottom: 2px solid black;
+      background-color: #FFB695;
+  }
+  
+  /* styles for the footer */
+  footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 2em;
+    color: #ffffff;
+  }
+  
+  /* styles for the tablet class */
+  .tablet {
+    display: none;
+  }
+/* styles for anchor tag inside footer */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* styles for the copyright id */
+#copyright {
+    float: left;
+    margin-top: 2em;
+    width: 80%;
+  }
+  
+  /* styles for the social id */
+  #social {
+    float: right;
+    width: 20%;
+  }
+  
+  /* styles for the images in social id */
+  #social img {
+    padding: 0.5em;
+  }
+
+  

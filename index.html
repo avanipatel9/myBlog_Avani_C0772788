@@ -1,35 +1,114 @@
 <!DOCTYPE html>
+<!-- This is the website created by ...... -->
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blog</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <div id="container">
-        <!-- Thia area is for the logo -->
-        <header>
-            <a href="index.html"><img src="images/Avani_logo1.png" alt="Logo"></a> 
-        </header>
-        
-        <!-- Thia area is for the hyperlinks to the other pages -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avani Patel</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- this area is for the logo -->
+      <header>
+        <a href="index.html"
+          ><img
+            src="images/Avani_logo.png"
+            alt="Fitness Club Logo"
+            title="Fitness Club Logo"
+        /></a>
+      </header>
 
-        <!-- Main content of the website -->
-        <main></main>
+      <!-- this area is for the hyperlinks to other pages -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-        <!-- Footer of the webpage -->
-        <footer>
-            &copy; Copyright 2020. All Rights reserved.<br/>
-            <a href="mailto:anpatel36@yahoo.in">anpatel36@yahoo.in</a>
-        </footer>
+      <!-- Home Page Banner -->
+      <div id="banner">
+        <img src="images/background.png" alt="home banner image" />
+      </div>
+
+      <!-- main content of the website -->
+      <main>
+        <p>
+          <h1>Welcome to Avani's Personal Blog!</h1>
+        </p>
+        <!-- div for the mobile view port -->
+        <div class="mobile">
+          <h3>FREE One-Week Trial Membership!</h3>
+          <p><a href="tel:8145559608">Call Us Today to Get Started</a></p>
+
+          <h4>Fitness Club Hours:</h4>
+          <p>
+            Monday - Thursday: 6:00 am - 6:00 pm <br />
+            Friday: 6:00 am - 4:00 pm <br />
+            Saturday: 8:00 am - 6:00 pm <br />
+            Sunday: Closed
+          </p>
         </div>
-    </body>
+        <!-- div for desktop view port -->
+        <div class="desktop">
+          <h1>Projects</h1>
+
+          <div class="colcontainer">
+          <div class="polaroid column">
+            <img src="images/android.jpg" alt="android logo" style="width:100%">
+            <div class="txtcontainer">
+            <p class="textandroid">
+                      <a href="https://github.com/avanipatel9/C0772788_W2020_MAD3125_MidTerm">Tax Calculator</a><br>
+                      <a href="https://github.com/avanipatel9/C0772788_W2020_MAD3125_FP">Utility Bill Calculator</a>
+                    </p>
+            </div>
+          </div>
+
+          <div class="polaroid column">
+            <img src="images/ios.jpg" alt="ios logo" style="width:100%">
+            <div class="txtcontainer">
+              <p class="textios">
+                <a href="https://github.com/avanipatel9/VehicleRentingSystem">Vehicle Renting System</a><br>
+                <a href="https://github.com/avanipatel9/C0772788_MidTerm_MAD3115W2020">Utility Bill Calculator</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="polaroid column">
+            <img src="images/swift.png" alt="swift logo" style="width:100%">
+            <div class="txtcontainer">
+              <p class="swift">
+                <a href="https://github.com/avanipatel9/MAD3004_W2020_MidTerm">Console based - Utility Bill Calculator</a>
+              </p>
+            </div>
+          </div>
+        </div>
+          
+        </div>
+
+
+      </main>
+
+      <!-- footer of the webpage -->
+      <footer>
+        <div id="copyright">
+          <p>
+            &copy; Copyright 2020. All Rights reserved. <br />
+            <a href="mailto:fitnessclub@club.net">fitnessclub@club.net</a>
+          </p>
+        </div>
+        
+        <div id="social">
+          <p>Connect with us:</p>
+          <p>
+            <a href="https://www.facebook.com/fwdfitclub"><img src="images/fblogo.png" alt="facebook logo"></a>
+            <a href="https://www.twiter.com/fwdfitclub"><img src="images/twitterlogo.png" alt="twiter logo"></a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
+
