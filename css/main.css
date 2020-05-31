@@ -56,6 +56,31 @@ nav li a {
   text-decoration: none;
 }
 
+#imgbanner {
+  opacity: 0.5;
+}
+
+.banner {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #ff7979;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.name h1 {
+  color: #ff7979;
+  /* color: #ff6b6b */
+  /* color: #fc5c65; */
+}
+
 /* styles for the mobile class */
 .mobile {
   display: inline;
@@ -564,10 +589,19 @@ video {
 
 
 
-
   /* styles for h1 - giving black color */
-  h1 {
+  #welcome {
     color: #000000;
+    background-color: #FFB695;
+    padding: 1.5em;
+    margin-top: -1.5em;
+  }
+
+  #projects {
+    color: #000000;
+    background-color: #FFB695;
+    padding: 1.5em;
+    margin-top: 1em;
   }
 
   /* styles for footer */
