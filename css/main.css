@@ -70,7 +70,7 @@ nav li a {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
   color: #ff7979;
-  width: 100%;
+  width: 90%;
   padding: 20px;
   text-align: center;
 }
@@ -135,11 +135,11 @@ main {
 
 /* styles for the footer */
 footer {
-  font-size: 0.7em;
-  text-align: center;
-  margin-top: 2em;
-  color: #ffffff;
-  background-color: #2a2a2a;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 2em;
+    color: #ffffff;
+    background-color: #2a2a2a;
 }
 
 /* styles for the tablet class */
@@ -164,11 +164,6 @@ main a {
 footer a {
   color: #ffffff;
   text-decoration: none;
-}
-
-/* styles for the aside element - nutrition page */
-aside {
-  font-style: italic;
 }
 
 /* styles for input textarea, select etc.. */
@@ -223,6 +218,26 @@ form ul {
 
 @media only screen and (min-width: 688px) {
   /* styles specifies horizontal dispay for navigation links */
+
+  header {
+    text-align: left;
+    background-color: #ffffff;
+  }
+
+  nav {
+    float: right;
+    margin-top: -5em;
+    margin-right: -5em;
+    margin-bottom: 0;
+    width: 80%;
+  }
+
+  nav ul {
+    margin: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  }
+
   nav li {
     display: block;
     float: left;
@@ -236,12 +251,43 @@ form ul {
     background-color: transparent;
   }
 
+   /* styles for anchor tag inside nav li */
+   nav li a {
+    display: inline-block;
+    padding: 1em;
+    /* text-shadow: 0.2em 0.1em #3d3d35; */
+  }
+
+  /* styles for pseudo-classes */
+  /* when the link is not visited */
+  nav li a:link {
+    color:black;
+  }
+
+  /* when the link is visited */
+  nav li a:visited {
+    color: #2323a0;
+  }
+
+  /* pseudo class when hoverin over link */
+  nav li a:hover {
+    font-style: italic;
+    color: #470832;
+  }
+
+  /* when the links are active */
+  nav li a:active {
+    color: #e27023;
+  }
+
   /* styles for main */
   main {
     clear: left;
     margin-top: 4em;
     border-radius: 0;
     overflow: auto;
+    /* width: 70%; */
+    /* float: left; */
   }
 
   /* styles for h1 element */
@@ -371,15 +417,6 @@ form ul {
     text-align: left;
   }
 
-  /* styles for the aside element */
-  aside {
-    background-color: #ffffff;
-    border-radius: 0 5em 5em 5em;
-    padding: 1.5em;
-    box-shadow: 1em 1em 1em #4c4f4d;
-    margin: 1em;
-  }
-
   /* styles for main element with class flex display */
   .flex-container {
     display: flex;
@@ -423,21 +460,6 @@ form ul {
   .btn {
     margin-left: 12em;
   }
-
-  /* styles for the video class */
-.video {
-  padding: 0.5em;
-  margin-top: 2em;
-  text-align: center;
-  clear: left;
-}
-
-/* styles for the video tag */
-video {
-  border: 0.5em ridge #ffffff;
-  height: auto;
-  max-width: 100%;
-}
 }
 
 /* Media Query for desktop view port */
@@ -455,7 +477,7 @@ video {
   /* styles for nav */
   nav {
     float: right;
-    margin-top: -7em;
+    margin-top: -5em;
     margin-right: -5em;
     margin-bottom: 0;
     width: 50%;
