@@ -43,7 +43,7 @@ body {
   
   /* styles for the li in nav */
   nav li {
-    background-color: #9d9d93;
+    background-color: #1d1d1c;
     border-radius: 2em;
     margin: 0.3em;
     padding: 0.4em;
@@ -201,7 +201,27 @@ footer a {
   /* Media query for TABLET viewport target - minimum width: 480px */
 
 @media only screen and (min-width: 688px) {
+
+  header {
+    text-align: left;
+    background-color: #ffffff;
+  }
+
   /* styles specifies horizontal dispay for navigation links */
+  nav {
+    float: right;
+    margin-top: -5em;
+    margin-right: -5em;
+    margin-bottom: 0;
+    width: 80%;
+  }
+
+  nav ul {
+    margin: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  }
+
   nav li {
     display: block;
     float: left;
@@ -213,6 +233,35 @@ footer a {
     white-space: nowrap;
     border-radius: 0;
     background-color: transparent;
+  }
+
+   /* styles for anchor tag inside nav li */
+   nav li a {
+    display: inline-block;
+    padding: 1em;
+    /* text-shadow: 0.2em 0.1em #3d3d35; */
+  }
+
+  /* styles for pseudo-classes */
+  /* when the link is not visited */
+  nav li a:link {
+    color:black;
+  }
+
+  /* when the link is visited */
+  nav li a:visited {
+    color: #2323a0;
+  }
+
+  /* pseudo class when hoverin over link */
+  nav li a:hover {
+    font-style: italic;
+    color: #470832;
+  }
+
+  /* when the links are active */
+  nav li a:active {
+    color: #e27023;
   }
 
   /* styles for main */
@@ -437,7 +486,7 @@ video {
   /* styles for nav */
   nav {
     float: right;
-    margin-top: -7em;
+    margin-top: -5em;
     margin-right: -5em;
     margin-bottom: 0;
     width: 50%;
