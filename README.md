@@ -11,6 +11,10 @@ https://stackoverflow.com
 
 https://flatuicolors.com
 
+https://www.flaticon.com
+
+https://icons8.com/icons/ios
+
 https://www.health.harvard.edu/staying-healthy/music-and-health
 
 https://liveforlivemusic.com/features/10-positive-benefits-of-listening-to-music-according-to-science/
